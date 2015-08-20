@@ -161,6 +161,7 @@ int main(void)
 
     /* Init UART0 for printf */
     UART0_Init();
+	ADC_Init ();
 	
 
 	
