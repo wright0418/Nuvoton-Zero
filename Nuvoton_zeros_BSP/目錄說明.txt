@@ -1,0 +1,204 @@
+開發包目錄說明：
+
+Document      --    放置本開發包提供的驅動說明文件與版本修訂紀錄文件
+Library       --    放置所有驅動的源代碼，包括CMSIS, 標準驅動與 M051 學習板的相關驅動
+SampleCode	  --    原廠提供的範例程序源碼，包括了標準驅動的使用範例與 M051 學習板的範例程序
+
+範例程序：
+
+\SampleCode\Template            開發模板
+
+\SampleCode\M051-LB_004         M051學習板用的範例程序
+
+\SampleCode\Semihost            演示如何利用 Semihost 的方式來顯示調試訊息
+
+\SampleCode\RegBased            提供只引用 Driver Header 檔，並直接存取控制暫存器的 Sample Code
+
+    ACMP                        演示 ACMP 搭配內部 Band-gap 電壓的使用
+    
+    ADC_BurstMode               演示如何使用 ADC 的 burst mode 來進行類比轉換
+    
+    ADC_ContinuousScanMode      演示如何使用 ADC 的 Continuous Scan Mode.
+    
+    ADC_PwmTrigger              演示如何用 PWM 來觸發 ADC 的轉換
+    
+    ADC_ResultMonitor           演示如何使用 ADC 的比較功能來監控 ADC 的轉換結果
+    
+    ADC_SingleCycleScanMode     演示如何使用 ADC 的 Single Cycle Scan Mode 來轉換類比訊號
+    
+    ADC_SingleMode              演示如何使用 ADC 的 Single Mode 來轉換類比訊號
+    
+    EBI_NOR                     演示如何透過 EBI 接口來控制和讀寫 NOR Flash - W39L040P
+    
+    EBI_SRAM                    演示如何透過 EBI 接口來讀寫 SRAM Flash - BS616LV4017
+    
+    FMC_IAP                     演示如何在 APROM 執行程序時,呼叫存放在 LDROM 內的函數
+    
+    FMC_MultiBoot               演示如何實現在 APROM 中,同時存放多個獨立的應用程序, 並任意選擇要用哪個應用程序開機
+    
+    FMC_RW                      演示如何利用 ISP 功能，讀寫 Embedded Flash
+    
+    GPIO_EINTAndDebounce        演示如何使用外部中斷 EINT0 與 EINT1，也演示如何搭配 debounce 功能           
+                                                                                                            
+    GPIO_INT                    演示如何設定管腳中斷，包括正緣觸發或負緣觸發                                
+                                                                                                            
+    GPIO_OutputInput            演示管腳的輸出、輸入模式設定                                                
+                                                                                                            
+    GPIO_PowerDown              演示如何使用 GPIO 來從 Power Down 模式下喚醒系統                            
+    
+    HDIV                        演示除法函數的使用與直接使用硬體除法器                                                         
+                                                                                                                               
+    I2C_EEPROM                  演示如何利用I2C來存取 EEPROM                                                                   
+                                                                                                                               
+    I2C_GCMode_Master           搭配 I2C_GCMode_SLAVE 使用, 演示 I2C Master 利用位址 0x0 來寫資料到 Slave 端                   
+                                                                                                                               
+    I2C_GCMode_Slave            搭配 I2C_GCMode_MASTER 使用, 演示 I2C Slave 在 GC (General Call) 模式下, 接收 Master 端的資料  
+                                                                                                                               
+    I2C_Master                  搭配 I2C_SLAVE, 演示用不同的 I2C 位址, 寫資料到 Slave 端                                       
+                                                                                                                               
+    I2C_Slave                   搭配 I2C_MASTER, 演示如何設定 I2C 位址, 接受由 Master 傳來的資料                               
+                                                                                                                               
+    I2C_Wakeup_Master           搭配 I2C_Wakeup_Slave 使用, 演示如何利用 I2C 將 MCU 由 Power Down 模式下喚醒                  
+                                                                                                                               
+    I2C_Wakeup_Slave            搭配 I2C_Wakeup_Master 使用, 演示如何設定 I2C, 使 MCU 從 Power Down 模式下經由 I2C 來喚醒   
+    
+    PWM                         演示如何使用 PWM 產生不同的頻率
+                                                               
+    PWM_Capture                 演示 PWM 的 Capture 功能       
+                                                               
+    PWM_DeadZone                演示 PWM 的 Dead Zone 功能     
+                                                               
+    PWM_DoubleBuffer            演示 PWM 的 Double Buffer 功能 
+    
+    SPI_MasterFifoMode          搭配 SPI_SlaveFifoMode, 演示 SPI Master 透過 FIFO 與 SPI Slave 進行資料收送
+    
+    SPI_SlaveFifoMode           搭配 SPI_MasterFifoMode, 演示 SPI Slave 透過 FIFO 與 SPI Master 進行資料收送
+    
+    SYS                         演示如何改變 PLL 與系統頻率，及如何輸出系統頻率到晶片外                            
+                                                                                                                   
+    TIMER_Capture               演示如何使用 TIMER 的 Capture 功能                                                 
+                                                                                                                   
+    TIMER_Counter               演示如何使用 TIMER 的 Counter 功能                                                 
+                                                                                                                   
+    TIMER_PeriodicINT           演示如何使用 TIMER 的 Periodic Mode，以及如何使用不同的 TIMER 時脈來源             
+                                                                                                                   
+    TIMER_PowerDown             演示如何使用 TIMER 中斷事件來喚醒系統                                              
+                                                                                                                   
+    UART_Autoflow_Master        搭配 UART_Autoflow_Slave，演示利用 auto flow control 的功能來與 Slave 收送資料     
+                                                                                                                   
+    UART_Autoflow_Slave         搭配 UART_Autoflow_Master，演示利用 auto flow control 的功能來與 Master 收送資料    
+                                                                                                                   
+    UART_IrDA_Master            搭配 UART_IrDA_Slave, 演示如何利用 UART 的 IrDA 模式來收送資料                     
+                                                                                                                   
+    UART_IrDA_Slave             搭配 UART_IrDA_Master, 演示如何利用 UART 的 IrDA 模式來收送資料                    
+                                                                                                                   
+    UART_LIN                    演示如何送出 LIN header 與 response                                                
+                                                                                                                   
+    UART_RS485_Master           搭配 UART_RS485_Slave, 演示用如何用 UART RS485 模式來收送資料                      
+                                                                                                                   
+    UART_RS485_Slave            搭配 UART_RS485_Master, 演示用如何用 UART RS485 模式來收送資料                      
+    
+    UART_TxRx_Function          用一個簡單的 UART echo 程序，演示如何設定 UART，使用基本的收送功能.
+    
+    WDT_PowerDown               演示如何用 WDT 中斷事件來喚醒系統                         
+                                                                                          
+    WDT_TimeoutINT              演示如何設定 WDT 並與實現 WDT 到時中斷處理函數            
+                                                                                          
+    WDT_TimeoutReset            演示 WDT 到時重置的機制                                   
+                                                                                          
+    WWDT_CompareINT             演示如何使用 WWDT，包括到時的週期與到時的系統重置         
+
+
+\SampleCode\StdDriver           本目錄放置所有 M051 驅動範例
+
+    ACMP                        演示 ACMP 搭配內部 Band-gap 電壓的使用
+    
+    ADC_BurstMode               演示如何使用 ADC 的 burst mode 來進行類比轉換
+    
+    ADC_ContinuousScanMode      演示如何使用 ADC 的 Continuous Scan Mode.
+
+    ADC_PwmTrigger              演示如何用 PWM 來觸發 ADC 的轉換
+    
+    ADC_ResultMonitor           演示如何使用 ADC 的比較功能來監控 ADC 的轉換結果
+    
+    ADC_SingleCycleScanMode     演示如何使用 ADC 的 Single Cycle Scan Mode 來轉換類比訊號
+    
+    ADC_SingleMode              演示如何使用 ADC 的 Single Mode 來轉換類比訊號
+    
+    EBI_NOR                     演示如何透過 EBI 接口來控制和讀寫 NOR Flash - W39L040P
+
+    EBI_SRAM                    演示如何透過 EBI 接口來讀寫 SRAM Flash - BS616LV4017
+
+    FMC                         演示如何透過 ISP 介面讀寫內存與如何在 LDROM 與 APROM 間切換
+    
+    FMC_IAP                     演示如何在 APROM 執行程序時,呼叫存放在 LDROM 內的函數
+    
+    GPIO_EINTAndDebounce        演示如何使用外部中斷 EINT0 與 EINT1，也演示如何搭配 debounce 功能
+    
+    GPIO_INT                    演示如何設定管腳中斷，包括正緣觸發或負緣觸發
+    
+    GPIO_OutputInput            演示管腳的輸出、輸入模式設定
+    
+    GPIO_PowerDown              演示如何使用 GPIO 來從 Power Down 模式下喚醒系統
+
+    HDIV                        演示除法函數的使用與直接使用硬體除法器
+    
+    I2C_EEPROM                  演示如何利用I2C來存取 EEPROM
+            
+    I2C_GCMode_MASTER           搭配 I2C_GCMode_SLAVE 使用, 演示 I2C Master 利用位址 0x0 來寫資料到 Slave 端
+    
+    I2C_GCMode_SLAVE            搭配 I2C_GCMode_MASTER 使用, 演示 I2C Slave 在 GC (General Call) 模式下, 接收 Master 端的資料
+
+    I2C_MASTER                  搭配 I2C_SLAVE, 演示用不同的 I2C 位址, 寫資料到 Slave 端
+    
+    I2C_SLAVE                   搭配 I2C_MASTER, 演示如何設定 I2C 位址, 接受由 Master 傳來的資料
+    
+    I2C_Wakeup_Master           搭配 I2C_Wakeup_Slave 使用, 演示如何利用 I2C 將 MCU 由 Power Down 模式下喚醒
+    
+    I2C_Wakeup_Slave            搭配 I2C_Wakeup_Master 使用, 演示如何設定 I2C, 使 MCU 從 Power Down 模式下經由 I2C 來喚醒
+    
+    PWM                         演示如何使用 PWM 產生不同的頻率
+    
+    PWM_Capture                 演示 PWM 的 Capture 功能
+    
+    PWM_DeadZone                演示 PWM 的 Dead Zone 功能
+    
+    PWM_DoubleBuffer            演示 PWM 的 Double Buffer 功能
+    
+    SPI_LoopBackTest            使用 loopback 方式演示 SPI Master 與 Slave 間的資料收送
+    
+    SYS                         演示如何改變 PLL 與系統頻率，及如何輸出系統頻率到晶片外
+    
+    TIMER_Capture               演示如何使用 TIMER 的 Capture 功能
+    
+    TIMER_Counter               演示如何使用 TIMER 的 Counter 功能
+    
+    TIMER_PeriodicINT           演示如何使用 TIMER 的 Periodic Mode，以及如何使用不同的 TIMER 時脈來源
+    
+    TIMER_PowerDown             演示如何使用 TIMER 中斷事件來喚醒系統
+    
+    UART_Autoflow_Master        搭配 UART_Autoflow_Slave，演示利用 auto flow control 的功能來與 Slave 收送資料
+    
+    UART_Autoflow_Slave         搭配 UART_Autoflow_Master，演示利用 auto flow control 的功能來與 Master 收送資料
+    
+    UART_IrDA_Master            搭配 UART_IrDA_Slave, 演示如何利用 UART 的 IrDA 模式來收送資料
+    
+    UART_IrDA_Slave             搭配 UART_IrDA_Master, 演示如何利用 UART 的 IrDA 模式來收送資料
+    
+    UART_LIN                    演示如何送出 LIN header 與 response
+    
+    UART_RS485_Master           搭配 UART_RS485_Slave, 演示用如何用 UART RS485 模式來收送資料
+       
+    UART_RS485_Slave            搭配 UART_RS485_Master, 演示用如何用 UART RS485 模式來收送資料
+    
+    UART_TxRx_Function          用一個簡單的 UART echo 程序，演示如何設定 UART，使用基本的收送功能.
+    
+    WDT_PowerDown               演示如何用 WDT 中斷事件來喚醒系統
+    
+    WDT_TimeoutINT              演示如何設定 WDT 並與實現 WDT 到時中斷處理函數
+    
+    WDT_TimeoutReset            演示 WDT 到時重置的機制
+    
+    WWDT_CompareINT             演示如何使用 WWDT，包括到時的週期與到時的系統重置
+    
+    

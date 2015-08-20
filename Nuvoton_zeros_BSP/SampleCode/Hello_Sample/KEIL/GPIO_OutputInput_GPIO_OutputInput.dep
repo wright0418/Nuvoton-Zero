@@ -1,0 +1,182 @@
+Dependencies for Project 'GPIO_OutputInput', Target 'GPIO_OutputInput': (DO NOT MODIFY !)
+F (..\..\..\..\Library\Device\Nuvoton\M051Series\Source\system_M051Series.c)(0x55D3F636)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\system_m051series.o --omf_browse .\obj\system_m051series.crf --depend .\obj\system_m051series.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\Device\Nuvoton\M051Series\Source\ARM\startup_M051Series.s)(0x55D3F636)(--cpu Cortex-M0 -g --16 --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include--list .\lst\startup_m051series.lst --xref -o .\obj\startup_m051series.o --depend .\obj\startup_m051series.d)
+F (..\main.c)(0x55D42E38)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\StdDriver\src\retarget.c)(0x55D3F637)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\retarget.o --omf_browse .\obj\retarget.crf --depend .\obj\retarget.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\StdDriver\src\gpio.c)(0x55D3F637)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\StdDriver\src\uart.c)(0x55D3F637)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\StdDriver\src\clk.c)(0x55D3F637)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\clk.o --omf_browse .\obj\clk.crf --depend .\obj\clk.d)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\StdDriver\src\sys.c)(0x55D3F637)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\sys.o --omf_browse .\obj\sys.crf --depend .\obj\sys.d)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
+F (..\..\..\..\Library\StdDriver\src\adc.c)(0x55D3F637)(-c --cpu Cortex-M0 -D__MICROLIB -g -O2 --apcs=interwork --split_sections -I..\..\..\..\Library\Device\Nuvoton\M051Series\Include -I..\..\..\..\Library\CMSIS\Include -I..\..\..\..\Library\StdDriver\inc-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cm0.h)(0x55D3F636)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (..\..\..\..\Library\CMSIS\Include\core_cmInstr.h)(0x55D3F636)
+I (..\..\..\..\Library\CMSIS\Include\core_cmFunc.h)(0x55D3F636)
+I (..\..\..\..\Library\Device\Nuvoton\M051Series\Include\system_M051Series.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\sys.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\clk.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\adc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\ebi.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\fmc.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\gpio.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\i2c.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\pwm.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\spi.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\timer.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\wwdt.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\uart.h)(0x55D3F637)
+I (..\..\..\..\Library\StdDriver\inc\hdiv.h)(0x55D3F636)
+I (..\..\..\..\Library\StdDriver\inc\acmp.h)(0x55D3F636)
